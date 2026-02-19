@@ -5,6 +5,8 @@ import './Counter.tsx'
 import Counter from "./Counter.tsx";
 import TodoList from "./TodoList.tsx";
 import ContactForm from "./ContactForm.tsx";
+import MultiStepForm from "./MultiStepForm.tsx";
+
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <TodoList/>
         <br/>
         <ContactForm/>
+          <br/>
+          <MultiStepForm/>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
