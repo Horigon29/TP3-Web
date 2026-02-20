@@ -6,6 +6,7 @@ import Counter from "./Counter.tsx";
 import TodoList from "./TodoList.tsx";
 import ContactForm from "./ContactForm.tsx";
 import MultiStepForm from "./MultiStepForm.tsx";
+import ProductFilter from "./ProductFilter.tsx";
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         <ContactForm/>
           <br/>
           <MultiStepForm/>
+          <br/>
+          <br/>
+          <ProductFilter/>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
